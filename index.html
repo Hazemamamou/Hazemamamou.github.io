@@ -1,44 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hazem Amamou - Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-</head>
-<body>
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <nav class="navbar">
-                <div class="logo">Hazem <span>Amamou</span></div>
-                <div class="menu-toggle" id="mobile-menu">
-                    <i class="fas fa-bars"></i>
-                </div>
-                <ul class="nav-links" id="nav-links">
-                    <li><a href="#hero">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#publications">Publications</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hazem Amamou — AI Researcher (LLMs, RAG, GraphRAG)</title>
 
+  <!-- SEO -->
+  <meta name="description" content="Hazem Amamou — AI Researcher at INRS Montréal specializing in LLMs, Retrieval-Augmented Generation (RAG), GraphRAG, misinformation detection, and trustworthy AI." />
+  <link rel="canonical" href="#" />
+  <meta name="robots" content="index,follow" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Hazem Amamou — Portfolio" />
+  <meta property="og:description" content="AI Researcher (LLMs, RAG, GraphRAG) — Publications, Projects, and Contact." />
+  <meta property="og:type" content="website" />
+
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+
+  <!-- Optional: reduce motion for accessibility -->
+  <style>
+    @media (prefers-reduced-motion: reduce) {
+      * { scroll-behavior: auto !important; transition: none !important; animation: none !important; }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Skip link for accessibility -->
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <nav class="navbar" aria-label="Primary navigation">
+        <a class="logo" href="#hero" aria-label="Go to Home">
+          Hazem <span>Amamou</span>
+        </a>
+
+        <button class="menu-toggle" id="mobile-menu" aria-label="Open menu" aria-controls="nav-links" aria-expanded="false" type="button">
+          <i class="fas fa-bars" aria-hidden="true"></i>
+        </button>
+
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#publications">Publications</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
     <!-- Hero Section -->
     <section id="hero">
-        <div class="container">
-            <div class="hero-content">
-                <h1>Hazem Amamou</h1>
-                <h2>AI Researcher | LLM & Retrieval-Augmented Generation (RAG)</h2>
+      <div class="container">
+        <div class="hero-content">
+          <h1>Hazem Amamou</h1>
+          <h2>AI Researcher · LLMs · Retrieval-Augmented Generation (RAG) · GraphRAG</h2>
 
-<p>
-Master’s researcher at INRS Montreal specializing in Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), and trustworthy AI systems.
-Published author in IEEE and international journals, with research focusing on misinformation detection, knowledge graph-enhanced RAG, and AI robustness.
-</p>
+          <p>
+            Master’s researcher at INRS Montréal focused on Large Language Models (LLMs), Retrieval-Augmented Generation (RAG),
+            and trustworthy AI. Published author in IEEE venues and international journals, with research spanning misinformation detection,
+            knowledge graph–enhanced RAG, and robustness.
+          </p>
 
+<<<<<<< HEAD
 <div class="hero-buttons">
     <a href="#publications" class="btn">View Publications</a>
     <a href="https://github.com/Hazemamamou" target="_blank" class="btn btn-secondary">View GitHub</a>
@@ -49,183 +81,124 @@ Published author in IEEE and international journals, with research focusing on m
                     <a href="mailto:hazem.amamou@inrs.ca"><i class="fas fa-envelope"></i></a>
                 </div>
             </div>
+=======
+          <div class="hero-buttons">
+            <a href="#publications" class="btn">View Publications</a>
+            <a href="https://github.com/Hazemamamou" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">View GitHub</a>
+          </div>
+
+          <div class="social-icons" aria-label="Social links">
+            <a href="https://www.linkedin.com/in/hazem-amamou-9b7635376/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+              <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+            </a>
+            <a href="https://github.com/Hazemamamou" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+              <i class="fab fa-github" aria-hidden="true"></i>
+            </a>
+            <a href="mailto:hazem.amamou@inrs.ca" aria-label="Email">
+              <i class="fas fa-envelope" aria-hidden="true"></i>
+            </a>
+          </div>
+>>>>>>> 95302ac (Update index)
         </div>
+      </div>
     </section>
 
     <!-- About Section -->
     <section id="about" class="section">
-        <div class="container">
-            <h2 class="section-title">About Me</h2>
-            <div class="about-content">
-                <div class="about-img">
-                    <img src="image.png" alt="Hazem Amamou">
+      <div class="container">
+        <h2 class="section-title">About</h2>
+
+        <div class="about-content">
+          <div class="about-img">
+            <img src="image.jpeg" alt="Portrait of Hazem Amamou" loading="lazy" />
+          </div>
+
+          <div class="about-text">
+            <h3>AI Researcher at INRS Montréal</h3>
+
+            <p>
+              I work on Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), and trustworthy AI systems.
+              My goal is to improve reliability and safety of LLM-based applications using knowledge graphs, advanced retrieval,
+              and multilingual NLP.
+            </p>
+
+            <p>My research interests include:</p>
+            <ul>
+              <li>Knowledge Graph–enhanced RAG (GraphRAG)</li>
+              <li>Misinformation detection using LLMs</li>
+              <li>LLM robustness, hallucination mitigation, and evaluation</li>
+              <li>Ideological bias analysis in RAG pipelines</li>
+              <li>Multilingual NLP and cross-lingual retrieval</li>
+            </ul>
+
+            <p>
+              I aim to build production-ready, trustworthy AI systems for real-world applications.
+            </p>
+
+            <div class="skills" aria-label="Skill levels">
+              <div class="skill-item">
+                <div class="skill-name">
+                  <span>Python</span>
+                  <span>95%</span>
                 </div>
-                <div class="about-text">
-                    <h3>AI Researcher at INRS Montreal</h3>
-
-<p>
-I am an AI researcher specializing in Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), and trustworthy artificial intelligence. My work focuses on improving the robustness, reliability, and safety of LLM systems using knowledge graphs, advanced retrieval methods, and multilingual NLP.
-</p>
-
-<p>
-I am a published author in IEEE conferences and international journals, with research contributions in:
-</p>
-
-<ul>
-<li>Knowledge Graph-enhanced RAG (GraphRAG)</li>
-<li>Misinformation detection using LLMs</li>
-<li>AI robustness and hallucination mitigation</li>
-<li>Ideological bias analysis in LLMs</li>
-<li>Multilingual NLP and cross-lingual retrieval</li>
-</ul>
-
-<p>
-My goal is to develop production-ready, trustworthy AI systems for real-world applications.
-</p>
-                    <div class="skills">
-                        <div class="skill-item">
-                            <div class="skill-name">
-                                <span>Python</span>
-                                <span>95%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 95%;"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-name">
-                                <span>Machine Learning</span>
-                                <span>90%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 90%;"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-name">
-                                <span>Natural Language Processing</span>
-                                <span>88%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 88%;"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-name">
-                                <span>SQL</span>
-                                <span>85%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 85%;"></div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="skill-bar" role="progressbar" aria-label="Python proficiency" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                  <div class="skill-progress" style="width: 95%;"></div>
                 </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-name">
+                  <span>Machine Learning</span>
+                  <span>90%</span>
+                </div>
+                <div class="skill-bar" role="progressbar" aria-label="Machine Learning proficiency" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                  <div class="skill-progress" style="width: 90%;"></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-name">
+                  <span>Natural Language Processing</span>
+                  <span>88%</span>
+                </div>
+                <div class="skill-bar" role="progressbar" aria-label="NLP proficiency" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100">
+                  <div class="skill-progress" style="width: 88%;"></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-name">
+                  <span>SQL</span>
+                  <span>85%</span>
+                </div>
+                <div class="skill-bar" role="progressbar" aria-label="SQL proficiency" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                  <div class="skill-progress" style="width: 85%;"></div>
+                </div>
+              </div>
             </div>
+            <!-- /skills -->
+          </div>
         </div>
+      </div>
     </section>
+
+    <!-- Experience -->
     <section id="experience" class="section">
-<div class="container">
-<h2 class="section-title">Research Experience</h2>
+      <div class="container">
+        <h2 class="section-title">Research Experience</h2>
 
-<div class="publication-card">
-<h3>AI Research Assistant — INRS Montreal</h3>
-<p class="conference">2024 – Present</p>
-
-<p>
-• Developed Knowledge Graph-enhanced Retrieval-Augmented Generation (GraphRAG) systems<br>
-• Published multiple papers in IEEE and international conferences<br>
-• Built robust misinformation detection systems using LLMs<br>
-• Evaluated LLM robustness using RGB benchmark<br>
-• Technologies: Python, PyTorch, HuggingFace, LangChain, Vector Databases
-</p>
-</div>
-
-</div>
-</section>
-    <!-- Projects Section -->
-   <!-- Projects Section -->
-<section id="projects" class="section">
-    <div class="container">
-        <h2 class="section-title">Research Projects</h2>
-        <div class="projects-grid">
-
-            <!-- GraphRAG Project -->
-            <div class="project-card">
-                <div class="project-img">
-                    <img src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="GraphRAG Project">
-                </div>
-                <div class="project-info">
-                    <h3>GraphRAG: Knowledge Graph-Enhanced Retrieval-Augmented Generation</h3>
-                    <p>
-                        Designed and implemented a Knowledge Graph-enhanced Retrieval-Augmented Generation (GraphRAG) framework to improve factual accuracy, robustness, and reasoning of Large Language Models. Evaluated performance using the RGB benchmark under noise robustness, counterfactual robustness, and negative rejection scenarios.
-                    </p>
-                    <div class="project-tags">
-                        <span>Retrieval-Augmented Generation (RAG)</span>
-                        <span>Knowledge Graphs</span>
-                        <span>Large Language Models (LLMs)</span>
-                        <span>GraphRAG</span>
-                        <span>Information Retrieval</span>
-                        <span>Vector Databases</span>
-                        <span>Python</span>
-                        <span>Transformers</span>
-                        <span>AI Robustness</span>
-                    </div>
-                    <a href="#" class="btn">View Project</a>
-                </div>
-            </div>
-
-            <!-- Fake News Detection Project -->
-            <div class="project-card">
-                <div class="project-img">
-                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Fake News Detection Project">
-                </div>
-                <div class="project-info">
-                    <h3>Misinformation Detection using LLMs, BERT, and RAG</h3>
-                    <p>
-                        Developed an AI system for detecting fake news using Machine Learning, BERT, and Retrieval-Augmented Generation. Evaluated robustness against LLM-generated misinformation and distribution shifts across multilingual datasets.
-                    </p>
-                    <div class="project-tags">
-                        <span>Misinformation Detection</span>
-                        <span>Natural Language Processing (NLP)</span>
-                        <span>BERT</span>
-                        <span>Large Language Models</span>
-                        <span>Retrieval-Augmented Generation</span>
-                        <span>Machine Learning</span>
-                        <span>Hugging Face Transformers</span>
-                        <span>Deep Learning</span>
-                        <span>AI Safety</span>
-                    </div>
-                    <a href="#" class="btn">View Project</a>
-                </div>
-            </div>
-
-            <!-- Multilingual Retrieval Project -->
-            <div class="project-card">
-                <div class="project-img">
-                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Multilingual Retrieval Project">
-                </div>
-                <div class="project-info">
-                    <h3>Multilingual Cross-Lingual Retrieval and Keyword Extraction System</h3>
-                    <p>
-                        Built a multilingual retrieval and keyword extraction pipeline for English and Portuguese corpora using TF-IDF, KeyBERT, contextual embeddings, and RAG. Improved terminology alignment and semantic retrieval in low-resource domains.
-                    </p>
-                    <div class="project-tags">
-                        <span>Cross-Lingual NLP</span>
-                        <span>Multilingual Retrieval</span>
-                        <span>Keyword Extraction</span>
-                        <span>TF-IDF</span>
-                        <span>KeyBERT</span>
-                        <span>Sentence-BERT</span>
-                        <span>Retrieval-Augmented Generation</span>
-                        <span>Python</span>
-                        <span>Information Retrieval</span>
-                    </div>
-                    <a href="#" class="btn">View Project</a>
-                </div>
-            </div>
-
+        <div class="publication-card">
+          <h3>AI Research Assistant — INRS Montréal</h3>
+          <p class="conference">2024 – Present</p>
+          <ul>
+            <li>Developed Knowledge Graph–enhanced RAG (GraphRAG) systems.</li>
+            <li>Published papers in IEEE venues and international conferences/journals.</li>
+            <li>Built misinformation detection systems leveraging LLMs and retrieval.</li>
+            <li>Evaluated LLM robustness using the RGB benchmark (noise robustness, counterfactual robustness, negative rejection).</li>
+            <li><b>Tech:</b> Python, PyTorch, Hugging Face, LangChain, vector databases.</li>
+          </ul>
         </div>
+<<<<<<< HEAD
     </div>
 </section>
     <section id="publications" class="section">
@@ -359,7 +332,363 @@ Demonstrated that ideological retrieval sources influence LLM outputs. Highlight
             </div>
         </div>
     </footer>
+=======
+      </div>
+    </section>
 
-    <script src="script.js"></script>
+    <!-- Projects -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="section-title">Research Projects</h2>
+>>>>>>> 95302ac (Update index)
+
+        <div class="projects-grid">
+          <!-- GraphRAG Project -->
+          <article class="project-card">
+            <div class="project-img">
+              <img
+                src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80"
+                alt="Abstract AI visualization for GraphRAG"
+                loading="lazy"
+                referrerpolicy="no-referrer"
+              />
+            </div>
+
+            <div class="project-info">
+              <h3>GraphRAG: Knowledge Graph–Enhanced Retrieval-Augmented Generation</h3>
+              <p>
+                Designed and implemented a knowledge graph–enhanced RAG framework to improve factual accuracy, robustness,
+                and reasoning for LLM applications. Evaluated using the RGB benchmark across noise robustness,
+                counterfactual robustness, and negative rejection.
+              </p>
+
+              <div class="project-tags" aria-label="Project tags">
+                <span>RAG</span>
+                <span>Knowledge Graphs</span>
+                <span>LLMs</span>
+                <span>GraphRAG</span>
+                <span>Information Retrieval</span>
+                <span>Vector DBs</span>
+                <span>Python</span>
+                <span>Transformers</span>
+                <span>Robustness</span>
+              </div>
+
+              <a href="https://github.com/Hazemamamou/graphrag-robustness" target="_blank" rel="noopener noreferrer" class="btn">
+                View Project
+              </a>
+            </div>
+          </article>
+
+          <!-- Fake News Detection Project -->
+          <article class="project-card">
+            <div class="project-img">
+              <img
+                src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80"
+                alt="Data analytics dashboard for misinformation detection"
+                loading="lazy"
+                referrerpolicy="no-referrer"
+              />
+            </div>
+
+            <div class="project-info">
+              <h3>Misinformation Detection using LLMs, BERT, and RAG</h3>
+              <p>
+                Built misinformation detection pipelines using classical ML, BERT-based models, and retrieval augmentation.
+                Studied robustness to LLM-generated misinformation and distribution shifts in multilingual settings.
+              </p>
+
+              <div class="project-tags" aria-label="Project tags">
+                <span>Misinformation</span>
+                <span>NLP</span>
+                <span>BERT</span>
+                <span>LLMs</span>
+                <span>RAG</span>
+                <span>Hugging Face</span>
+                <span>Deep Learning</span>
+                <span>AI Safety</span>
+              </div>
+
+              <a href="#" class="btn" aria-disabled="true" title="Add your project link">View Project</a>
+            </div>
+          </article>
+
+          <!-- Multilingual Retrieval Project -->
+          <article class="project-card">
+            <div class="project-img">
+              <img
+                src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1200&q=80"
+                alt="Code and multilingual text representation"
+                loading="lazy"
+                referrerpolicy="no-referrer"
+              />
+            </div>
+
+            <div class="project-info">
+              <h3>Multilingual Retrieval & Cross-Lingual Keyword Extraction</h3>
+              <p>
+                Built a multilingual retrieval and keyword extraction pipeline (English/Portuguese) using TF-IDF, KeyBERT,
+                contextual embeddings, and RAG-style generation. Improved terminology alignment and semantic retrieval
+                for low-resource domains.
+              </p>
+
+              <div class="project-tags" aria-label="Project tags">
+                <span>Cross-lingual NLP</span>
+                <span>Multilingual Retrieval</span>
+                <span>Keyword Extraction</span>
+                <span>TF-IDF</span>
+                <span>KeyBERT</span>
+                <span>Sentence-BERT</span>
+                <span>RAG</span>
+                <span>Python</span>
+              </div>
+
+              <a href="#" class="btn" aria-disabled="true" title="Add your project link">View Project</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Publications -->
+    <section id="publications" class="section">
+      <div class="container">
+        <h2 class="section-title">Publications</h2>
+
+        <div class="publications-list">
+          <div class="publication-card">
+            <h3>Towards Robust Retrieval-Augmented Generation Based on Knowledge Graph: A Comparative Analysis</h3>
+            <p class="conference">IEEE International Conference on Systems, Man, and Cybernetics (SMC), 2026</p>
+            <p>
+              Developed knowledge graph–enhanced GraphRAG variants improving robustness against noisy and inconsistent retrieval.
+              Demonstrated improvements over standard RAG baselines using the RGB benchmark.
+            </p>
+          </div>
+
+          <div class="publication-card">
+            <h3>Fake News Detection in Portuguese Under Large Language Model-Generated Content</h3>
+            <p class="conference">Journal of the Brazilian Computer Society, 2025</p>
+            <p>
+              Studied the impact of LLM-generated misinformation on detection systems, highlighting degradation under distribution shift
+              and improved robustness using retrieval augmentation.
+            </p>
+          </div>
+
+          <div class="publication-card">
+            <h3>Cross-Lingual Keyword Extraction for Scientific Terminology</h3>
+            <p class="conference">Journal of the Brazilian Computer Society, 2025</p>
+            <p>
+              Proposed cross-lingual keyword extraction leveraging BERT/KeyBERT-style methods and retrieval signals to improve alignment
+              in low-resource scientific domains.
+            </p>
+          </div>
+
+          <div class="publication-card">
+            <h3>Infox-QC: French Dataset for Misinformation Detection</h3>
+            <p class="conference">Language Resources and Evaluation Conference (LREC), 2026</p>
+            <p>
+              Introduced a Québec-focused misinformation dataset and benchmarked ML, BERT, and LLM approaches, including retrieval-augmented variants.
+            </p>
+          </div>
+
+          <div class="publication-card">
+            <h3>Ideological Bias in Retrieval-Augmented Generation</h3>
+            <p class="conference">CoNLL, 2026</p>
+            <p>
+              Analyzed how ideologically skewed retrieval sources can influence LLM outputs and discussed practical mitigation strategies
+              for trustworthy RAG systems.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+<section id="skills" class="section">
+  <div class="container">
+    <h2 class="section-title">Technical Skills</h2>
+
+    <div class="skills-grid">
+
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fas fa-code"></i></div>
+        <h3>Programming</h3>
+        <ul>
+          <li>Python</li>
+          <li>SQL</li>
+        </ul>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fas fa-brain"></i></div>
+        <h3>AI / Machine Learning</h3>
+        <ul>
+          <li>PyTorch</li>
+          <li>Transformers</li>
+          <li>Hugging Face</li>
+          <li>Scikit-learn</li>
+        </ul>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fas fa-robot"></i></div>
+        <h3>Large Language Models</h3>
+        <ul>
+          <li>Retrieval-Augmented Generation (RAG)</li>
+          <li>GraphRAG</li>
+          <li>LangChain</li>
+          <li>Prompt Engineering</li>
+        </ul>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fas fa-language"></i></div>
+        <h3>Natural Language Processing</h3>
+        <ul>
+          <li>BERT</li>
+          <li>Tokenization</li>
+          <li>Embeddings</li>
+          <li>Information Retrieval</li>
+        </ul>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fas fa-tools"></i></div>
+        <h3>Tools & Infrastructure</h3>
+        <ul>
+          <li>Git</li>
+          <li>Linux</li>
+          <li>Docker</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+
+        <div class="contact-content">
+          <div class="contact-info">
+            <h3>Let’s connect</h3>
+            <p>
+              I’m open to research collaborations and discussions on LLMs, RAG/GraphRAG, and trustworthy AI.
+              Feel free to reach out.
+            </p>
+
+            <div class="contact-details">
+              <div class="contact-item">
+                <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+                <span>Montréal, QC, Canada</span>
+              </div>
+              <div class="contact-item">
+                <i class="fas fa-phone" aria-hidden="true"></i>
+                <a href="tel:+15142438548" aria-label="Call Hazem">+1 (514) 243-8548</a>
+              </div>
+              <div class="contact-item">
+                <i class="fas fa-envelope" aria-hidden="true"></i>
+                <a href="mailto:hazem.amamou@inrs.ca">hazem.amamou@inrs.ca</a>
+              </div>
+            </div>
+
+            <div class="social-icons" aria-label="Social links">
+              <a href="https://www.linkedin.com/in/hazem-amamou-9b7635376/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+              </a>
+              <a href="https://github.com/Hazemamamou" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <i class="fab fa-github" aria-hidden="true"></i>
+              </a>
+              <a href="mailto:hazem.amamou@inrs.ca" aria-label="Email">
+                <i class="fas fa-envelope" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-form">
+            <!-- Note: needs backend or form service to actually send email -->
+            <form action="https://formspree.io/f/mlgwqkbq" method="POST">
+
+  <div class="form-group">
+    <label for="name">Name</label>
+    <input type="text" name="name" id="name" class="form-control" required>
+  </div>
+
+  <div class="form-group">
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email" class="form-control" required>
+  </div>
+
+  <div class="form-group">
+    <label for="subject">Subject</label>
+    <input type="text" name="subject" id="subject" class="form-control" required>
+  </div>
+
+  <div class="form-group">
+    <label for="message">Message</label>
+    <textarea name="message" id="message" rows="6" class="form-control" required></textarea>
+  </div>
+
+  <!-- where messages will be sent -->
+  <input type="hidden" name="_replyto" value="hazem.amamou@inrs.ca">
+
+  <button type="submit" class="btn">Send Message</button>
+
+</form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <p>&copy; 2026 Hazem Amamou — AI Researcher · LLMs · RAG/GraphRAG</p>
+        <div class="social-icons" aria-label="Social links">
+          <a href="https://www.linkedin.com/in/hazem-amamou-9b7635376/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+          </a>
+          <a href="https://github.com/Hazemamamou" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <i class="fab fa-github" aria-hidden="true"></i>
+          </a>
+          <a href="mailto:hazem.amamou@inrs.ca" aria-label="Email">
+            <i class="fas fa-envelope" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+
+  <!-- Small enhancement: smooth scroll if not reduced-motion -->
+  <script>
+    // Accessible mobile menu toggle
+    (function () {
+      const btn = document.getElementById("mobile-menu");
+      const nav = document.getElementById("nav-links");
+      if (!btn || !nav) return;
+
+      btn.addEventListener("click", () => {
+        const expanded = btn.getAttribute("aria-expanded") === "true";
+        btn.setAttribute("aria-expanded", String(!expanded));
+        nav.classList.toggle("open");
+      });
+
+      // Close menu on link click (mobile UX)
+      nav.querySelectorAll("a").forEach((a) => {
+        a.addEventListener("click", () => {
+          if (btn.getAttribute("aria-expanded") === "true") {
+            btn.setAttribute("aria-expanded", "false");
+            nav.classList.remove("open");
+          }
+        });
+      });
+    })();
+  </script>
 </body>
 </html>
